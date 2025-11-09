@@ -68,15 +68,21 @@ button:hover {
 }
 
 
-.receitas {
+.item {
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    text-align: center;
+    gap: 20px; /* espaço entre imagem e texto */
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* quebra se a tela for pequena */
 }
 
-.receitas img {
+.item img {
     width: 250px;
     border-radius: 10px;
+}
+
+.item p {
+    max-width: 400px;
+    text-align: justify;
 }
