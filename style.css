@@ -70,7 +70,13 @@ button:hover {
 
 .receitas {
     display: flex;
-    justify-content: center; /* centraliza no meio da tela */
-    flex-wrap: wrap; /* se tiver muitas imagens, quebra a linha */
-    gap: 20px; /* espaço entre as imagens */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.receitas img {
+    width: 250px;
+    border-radius: 10px;
 }
