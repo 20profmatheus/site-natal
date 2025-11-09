@@ -72,9 +72,9 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* espaço entre imagem e texto */
+    gap: 20px; 
     margin-bottom: 30px;
-    flex-wrap: wrap; /* quebra se a tela for pequena */
+    flex-wrap: wrap; 
 }
 
 .item img {
