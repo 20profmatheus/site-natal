@@ -66,3 +66,11 @@ button {
 button:hover {
     background-color: #388e3c;
 }
+
+
+.receitas {
+    display: flex;
+    justify-content: center; /* centraliza no meio da tela */
+    flex-wrap: wrap; /* se tiver muitas imagens, quebra a linha */
+    gap: 20px; /* espaço entre as imagens */
+}
